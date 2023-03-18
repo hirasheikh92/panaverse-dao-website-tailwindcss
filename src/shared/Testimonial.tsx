@@ -25,7 +25,7 @@ const Testimonial = (props: Props) => {
               instructions for resolving them.
             </p>
           </blockquote>
-          <figcaption className='flex items-center justify-center mt-6 space-x-3'>
+          <div className='flex items-center justify-center mt-6 space-x-3'>
             <div className='flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700'>
               <div className='pr-3 font-medium text-gray-900 text-black'>
                 Abdullah Azhar Khan
@@ -34,7 +34,7 @@ const Testimonial = (props: Props) => {
                 Student of Panaverse
               </div>
             </div>
-          </figcaption>
+          </div>
         </figure>
       </div>
     </section>
