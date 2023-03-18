@@ -2,9 +2,7 @@ import React from "react";
 import { AiFillHdd, AiOutlineUserAdd } from "react-icons/ai";
 import { FiMapPin } from "react-icons/fi";
 
-type Props = {};
-
-const DaoMember = (props: Props) => {
+const DaoMember = () => {
   return (
     <section className='container'>
       <div className='flex max-w-screen-xl  flex-col justify-center items-center '>

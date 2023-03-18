@@ -1,15 +1,7 @@
 import { cards, cardsData, core } from "@/database/database";
 import { DiCode } from "react-icons/di";
 
-const Course = ({
-  id,
-  heading1,
-  heading2,
-  text1,
-  text2,
-  heading3,
-  text3,
-}: cardsData) => {
+const Course = () => {
   return (
     <main>
       <section className=' container  bg-white round-b  '>

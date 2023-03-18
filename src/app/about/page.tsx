@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { data, instructorData } from "../../database/database";
 
-const About = ({ id, heading, text, src }: instructorData) => {
+const About = () => {
   return (
     <main>
       <section className=' container  bg-white round-b  '>

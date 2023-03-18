@@ -1,7 +1,4 @@
 import { memberData } from "@/database/database";
-import React from "react";
-
-type Props = {};
 
 const GoalMember = () => {
   return (

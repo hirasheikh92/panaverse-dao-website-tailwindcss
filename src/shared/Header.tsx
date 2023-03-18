@@ -4,9 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   const [toogle, setToggle] = useState(false);
   return (
     <header className=' max-w-screen-xl z-10 bg-white sm:max-xl:flex flex justify-between items-center px-5 py-3 fixed  w-full left-0 right-0 mt-10 top-0 rounded-full drop-shadow-2xl mx-auto '>
